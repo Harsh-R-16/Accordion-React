@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Smooth Accordion Dropdown Menu Demo with React JS.
+
+### Link: https://accordion-react-harsh.netlify.app/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
