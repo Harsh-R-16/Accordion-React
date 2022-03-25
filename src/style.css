@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  letter-spacing: 1.2px;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+h1 {
+  color: white;
+  font-weight: 400;
+  font-size: 30px;
+  width: fit-content;
+  margin: 10vh auto 20px;
+  text-align: center;
+}
+body {
+  background-color: #2d2c41;
+}
+section {
+  background-color: #fff;
+  width: fit-content;
+  border-radius: 4px;
+  margin: 50px auto;
+}
+.mainDiv {
+  padding: 13px 12px;
+  font-weight: 700;
+  border-bottom: 1px solid #2d2c41;
+  color: #2d2c41;
+  font-size: 14px;
+  position: relative;
+  width: 320px;
+}
+.mainDiv:hover {
+  color: #b63b4d;
+}
+div.mainDiv:nth-of-type(13) {
+  border: none;
+}
+.mainDiv p {
+  margin-left: 29px;
+}
+i.abs {
+  position: absolute;
+  top: 15px;
+  left: 12px;
+}
+i.right {
+  float: right;
+  transition: 0.4s linear;
+}
+i.down {
+  transform: rotate(180deg);
+}
+.red {
+  color: #b63b4d;
+}
+.subDiv {
+  height: 125px;
+  overflow: hidden;
+  transition: all 0.45s ease;
+}
+.subDiv p {
+  padding: 13px 12px 13px 43px;
+  background-color: #444359;
+  color: #d9d9d9;
+  font-size: 14px;
+  border-bottom: 1px solid #5f5f5f;
+}
+.subDiv p:hover {
+  background-color: #b63b4d;
+  color: #fff;
+  transition: all 0.65s ease;
+}
+.height {
+  height: 0px;
+}
+p {
+  cursor: pointer;
+}
